@@ -14,52 +14,67 @@ export default function Information() {
   })
 
   return (
-    <section className="row py-2">
-      <section className="col-md-4">
-        <div className="row py-2">
-          <div className="card bg-light py-2" style={{ borderRadius: "10px" }}>
-            <div className="card body  " style={{ borderRadius: "10px" }}>
-              {inView && <Skills />}
-            </div>
-          </div>
-
-          <div
-            className="card bg-light py-2"
-            style={{ borderRadius: "10px" }}
-            ref={observe}
-          >
-            <div className="card body py-2" style={{ borderRadius: "10px" }}>
-              <Language />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="col-md-8">
+    <section className="py-2" style={{ display: "grid" }}>
+      <section className="row " style={{ height: "100%" }}>
         <section
-          className="row py-2 "
+          className="col-md-4 "
           style={{ height: "100%", borderRadius: "10px" }}
         >
-          <div className="card bg-light py-3" style={{ borderRadius: "10px" }}>
+          <div
+            className="row "
+            style={{ height: "100%", borderRadius: "10px" }}
+          >
+            <div className="bg-light " style={{ borderRadius: "10px" }}>
+              <div
+                className="card body "
+                style={{ height: "100%", borderRadius: "10px" }}
+              >
+                <Skills />
+              </div>
+            </div>
+
             <div
-              className="card body"
+              className="bg-light py-2 "
+              style={{ borderRadius: "10px" }}
+              ref={observe}
+            >
+              <div
+                className="card body "
+                style={{ height: "100%", borderRadius: "10px" }}
+              >
+                {inView && <Language />}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="col-md-8 " style={{ height: "100%" }}>
+          <section className="row" style={{ borderRadius: "10px" }}>
+            <div
+              className=" bg-light "
               style={{ height: "100%", borderRadius: "10px" }}
             >
-              <Education />
+              <div
+                className="card body"
+                style={{ height: "100%", borderRadius: "10px" }}
+              >
+                <Education />
+              </div>
             </div>
-          </div>
-          <div
-            className="card bg-light py-1 "
-            style={{ borderRadius: "10px" }}
-            ref={observe}
-          >
-            <div className="card body" style={{
-              height: "100%",
-              borderRadius: "10px"
-            }}>
-              {inView && <Courses />}
+
+            <div
+              className="bg-light py-2 "
+              style={{ borderRadius: "10px", height: "100%" }}
+              ref={observe}
+            >
+              <div
+                className="card body"
+                style={{ height: "100%", borderRadius: "10px" }}
+              >
+                {inView && <Courses />}
+              </div>
             </div>
-          </div>
+          </section>
         </section>
       </section>
     </section>
