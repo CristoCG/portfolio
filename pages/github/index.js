@@ -19,7 +19,7 @@ export default function GitHub({ user, statusCode }) {
             <img src={user.avatar_url} alt="Foto de perfil de github" />
             <p>{user.bio}</p>
             <Link href={user.html_url}>
-              <a target="_blank" className="btn btn-outline-secondary my-2">
+              <a target="_blank" className="btn btn-outline-secondary ">
                 Ir al perfil
               </a>
             </Link>
