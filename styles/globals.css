@@ -1,9 +1,9 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
+body,
+html{
+  
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
 }
 
 a {
@@ -12,5 +12,23 @@ a {
 }
 
 * {
+  font-size: 24px;
   box-sizing: border-box;
+}
+
+.overflow{
+  height: 50%;
+  overflow: hidden;
+}
+.overflow .card-img-top{
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.overflow .card-img-top:hover{
+  transform: scale(1.6);
+}
+
+.descripcion{
+  font-size: 24px;
 }
