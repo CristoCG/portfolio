@@ -1,11 +1,11 @@
-import { idioms } from "settings/profile";
+import { language } from "settings/profile"
 
-export default function Idioms() {
+export default function Language() {
   return (
     <>
-      <h3 className="text-center">Idioms</h3>
+      <h3 className="text-center">Languages</h3>
       <ul>
-        {idioms.map(({ language, level }, index) => (
+        {language.map(({ language, level }, index) => (
           <li key={index}>
             <h5>{language}</h5>
             <em className="text-secondary">

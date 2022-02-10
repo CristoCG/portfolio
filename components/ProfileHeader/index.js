@@ -1,12 +1,14 @@
 import Image from "next/image"
-import Link from "next/link"
 import profilePic from "../../public/profilePic.jpg"
 
 export default function ProfileHeader() {
   return (
     <header className="row">
       <section className="col-md-12">
-        <div className="card card-body bg-secondary text-light">
+        <div
+          className="card card-body bg-secondary text-light"
+          style={{ borderRadius: "10px" }}
+        >
           <div className="row">
             <div className="col-md-4">
               <Image
@@ -15,14 +17,15 @@ export default function ProfileHeader() {
                 width={500}
                 height={500}
                 className="img-fluid"
-              ></Image>
+                
+              />
             </div>
 
             <div className="col-md-8">
               <h3>Cristobal Cabrera García</h3>
               <h5>Ingeniero Informático</h5>
               <small className="text-muted"> En formación</small>
-              <p className="descripcion">
+              <p>
                 Estudiante de Ingeniería Informática, con una formación
                 fundamentada en valores y principios éticos. Responsable, amable
                 con buenas relaciones interpersonales lo cual favorece el

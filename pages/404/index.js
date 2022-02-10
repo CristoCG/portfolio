@@ -6,7 +6,7 @@ export default function custom404() {
     <div className="text-center">
       <Header>404 ERROR</Header>
       <h1>404</h1>
-      <p>This page doesn't exist.</p>
+      <p>This page doesn&apos;t exist.</p>
       <p>
         Please return to{" "}
         <Link href="/">

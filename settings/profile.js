@@ -64,7 +64,7 @@ export const courses = [
   },
 ]
 
-export const idioms = [
+export const language = [
   {
     language: "Español",
     level: "Nativo",

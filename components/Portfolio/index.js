@@ -3,10 +3,12 @@ import NextProjects from "/components/NextProjects"
 export default function Portfolio() {
   return (
     <section className="row">
-      <section className="col-md-12">
-        <div className="card card-body bg-dark">
+      <section className="col-md-12"
+      >
+        <div className="card card-body bg-dark"
+          style={{ borderRadius: "10px" }}> 
           <header className="row">
-            <div className="col-md-12">
+            <div className="col-md-12 ">
               <h4 className="text-center text-light">Portfolio</h4>
             </div>
 

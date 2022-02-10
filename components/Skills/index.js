@@ -6,7 +6,7 @@ export default function Skills() {
       <h3 className="text-dark text-center">Skills</h3>
       {skills.map(({ skill, percentage }, index) => (
         <div className="py-1 m-1" key={index}>
-          <h6>{skill}</h6>
+          <h5>{skill}</h5>
           <div className="progress">
             <div
               className="progress-bar progress-bar-striped progress-bar-animated"

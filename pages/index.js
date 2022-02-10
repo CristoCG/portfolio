@@ -24,7 +24,7 @@ export default function Home() {
       <Information />
       {/** Portafolio */}
       <div ref={observe}>{inView && <Portfolio />}</div>
-      <div ref={observe}>{inView && <Footer />}</div>
+      <div className="py-2" ref={observe}>{inView && <Footer />}</div>
     </>
   )
 }
