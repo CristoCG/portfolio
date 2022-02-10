@@ -3,10 +3,10 @@ import { skills } from "settings/profile";
 export default function Skills() {
   return (
     <>
-      <h1 className="text-dark">Skills</h1>
+      <h3 className="text-dark text-center">Skills</h3>
       {skills.map(({ skill, percentage }, index) => (
-        <div className="py-3" key={index}>
-          <h5>{skill}</h5>
+        <div className="py-1 m-1" key={index}>
+          <h6>{skill}</h6>
           <div className="progress">
             <div
               className="progress-bar progress-bar-striped progress-bar-animated"

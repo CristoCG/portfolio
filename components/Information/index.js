@@ -4,7 +4,7 @@ import dynamic from "next/dynamic"
 import useInView from "react-cool-inview"
 
 const Courses = dynamic(() => import("/components/Courses"))
-const Idioms = dynamic(()=> import("/components/Idioms"))
+const Idioms = dynamic(() => import("/components/Idioms"))
 
 export default function Information() {
   const { observe, inView } = useInView({
@@ -18,9 +18,7 @@ export default function Information() {
       <section className="col-md-4">
         <div className="row py-2">
           <div className="card bg-light py-2">
-            <div className="card body py-2">
-              {inView && <Skills />}
-            </div>
+            <div className="card body  ">{inView && <Skills />}</div>
           </div>
 
           <div className="card bg-light py-2" ref={observe}>
@@ -35,11 +33,11 @@ export default function Information() {
         <section className="row py-2 " style={{ height: "100%" }}>
           <div className="card bg-light py-3">
             <div className="card body" style={{ height: "100%" }}>
-               <Education />
+              <Education />
             </div>
           </div>
 
-          <div className="card bg-light py-3 " ref={observe}>
+          <div className="card bg-light py-1 " ref={observe}>
             <div className="card body" style={{ height: "100%" }}>
               {inView && <Courses />}
             </div>

@@ -4,13 +4,13 @@ import { courses } from "settings/profile";
 export default function Courses() {
   return (
     <>
-      <h1 className="text-center">Courses</h1>
+      <h3 className="text-center">Courses</h3>
       <ul>
         {courses.map(({ name, fecha, informacion }, index) => (
           <li key={index}>
-            <h3>{name}</h3>
+            <h5>{name}</h5>
             <em className="text-secondary">
-              <h5>{fecha}</h5>
+              <h6>{fecha}</h6>
             </em>
             <p>{informacion}</p>
           </li>

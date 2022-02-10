@@ -7,13 +7,13 @@ export default function Portfolio() {
         <div className="card card-body bg-dark">
           <header className="row">
             <div className="col-md-12">
-              <h1 className="text-center text-light">Portfolio</h1>
+              <h4 className="text-center text-light">Portfolio</h4>
             </div>
 
-            <h1 className="text-light">NextJS</h1>
+            <h4 className="text-light">NextJS</h4>
             <NextProjects />
 
-            <h1 className="text-light">ReactJS</h1>
+            <h4 className="text-light">ReactJS</h4>
             <ReactProjects />
           </header>
         </div>

@@ -3,13 +3,13 @@ import { idioms } from "settings/profile";
 export default function Idioms() {
   return (
     <>
-      <h1 className="text-center">Idioms</h1>
+      <h3 className="text-center">Idioms</h3>
       <ul>
         {idioms.map(({ language, level }, index) => (
           <li key={index}>
-            <h3>{language}</h3>
+            <h5>{language}</h5>
             <em className="text-secondary">
-              <h5>✓ {level}</h5>
+              <h6>✓ {level}</h6>
             </em>
           </li>
         ))}

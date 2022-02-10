@@ -19,8 +19,8 @@ export default function ProfileHeader() {
             </div>
 
             <div className="col-md-8">
-              <h1>Cristobal Cabrera García</h1>
-              <h3>Ingeniero Informático</h3>
+              <h3>Cristobal Cabrera García</h3>
+              <h5>Ingeniero Informático</h5>
               <small className="text-muted"> En formación</small>
               <p className="descripcion">
                 Estudiante de Ingeniería Informática, con una formación

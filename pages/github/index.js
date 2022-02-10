@@ -15,7 +15,7 @@ export default function GitHub({ user, statusCode }) {
       <section className="row">
         <div className="col-md-4 offset-md-4">
           <div className="card card-body text-center">
-            <h1>{user.name}</h1>
+            <h5>{user.name}</h5>
             <img src={user.avatar_url} alt="Foto de perfil de github" />
             <p>{user.bio}</p>
             <Link href={user.html_url}>

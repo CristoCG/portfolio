@@ -11,7 +11,7 @@ export default function NextProjects() {
               <img src={img} alt={description} className="card-img-top" />
             </div>
             <div className="card-body ">
-              <h3>{title}</h3>
+              <h6>{title}</h6>
               <p>{description}</p>
               <Link href={url}>
                 <a target="_blank">Go visit</a>

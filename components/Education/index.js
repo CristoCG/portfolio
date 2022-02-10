@@ -3,13 +3,13 @@ import { education } from "settings/profile";
 export default function Education() {
   return (
     <>
-      <h1 className="text-center">Education</h1>
+      <h3 className="text-center">Education</h3>
       <ul>
         {education.map(({ name, fecha, institucion }, index) => (
           <li key={index}>
-            <h3>{name}</h3>
+            <h5>{name}</h5>
             <em className="text-secondary">
-              <h5>{fecha}</h5>
+              <h6>{fecha}</h6>
             </em>
             <p>{institucion}</p>
           </li>
