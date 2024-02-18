@@ -1,5 +1,4 @@
 import Image from "next/image"
-import profilePic from "../../public/profilePic.jpg"
 
 export default function ProfileHeader() {
   return (
@@ -10,21 +9,10 @@ export default function ProfileHeader() {
           style={{ borderRadius: "10px" }}
         >
           <div className="row">
-            <div className="col-md-4">
-              <Image
-                src={profilePic}
-                alt="Foto del dueño del portafolio"
-                width={500}
-                height={500}
-                className="img-fluid"
-                
-              />
-            </div>
-
-            <div className="col-md-8">
+            <div className="col-md-12">
               <h3>Cristobal Cabrera García</h3>
               <h5>Ingeniero Informático</h5>
-              <small className="text-muted"> En formación</small>
+              <small className="text-muted">En formación</small>
               <p>
                 Estudiante de Ingeniería Informática, con una formación
                 fundamentada en valores y principios éticos. Responsable, amable

@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap");
 body,
-html{
-  
-  font-family: 'Open Sans', sans-serif;
-
+html {
+  font-family: "Open Sans", sans-serif;
 }
 body::-webkit-scrollbar {
   width: 7px;
@@ -26,31 +24,34 @@ a {
 }
 
 * {
-  font-size: 20px;
+  font-size: 15px;
   box-sizing: border-box;
 }
 
-.overflow{
+.overflow {
   height: 50%;
   overflow: hidden;
 }
-.overflow .card-img-top{
+.overflow .card-img-top {
   transform: scale(1);
   transition: all 0.5s ease-in-out;
 }
 
-.overflow .card-img-top:hover{
+.overflow .card-img-top:hover {
   transform: scale(1.6);
 }
 
-h5,strong{
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+h5,
+strong {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
-
-h3,h5,p,h4{
-  font-family: 'IBM Plex Mono', monospace;
+h3,
+h5,
+p,
+h4 {
+  font-family: "IBM Plex Mono", monospace;
 }
-p{
-font-size: 18px; 
+p {
+  font-size: 15px;
 }

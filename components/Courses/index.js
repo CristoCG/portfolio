@@ -1,10 +1,9 @@
-import { courses } from "settings/profile";
-
+import { courses } from "settings/profile"
 
 export default function Courses() {
   return (
     <>
-      <h3 className="text-center">Courses</h3>
+      <h3 className="text-center">Cursos</h3>
       <ul>
         {courses.map(({ name, fecha, informacion }, index) => (
           <li key={index}>
