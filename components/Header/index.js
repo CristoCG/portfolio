@@ -6,7 +6,7 @@ export default function Header({ children }) {
       <title>{children}</title>
       <meta
         name="description"
-        content="Cristobal Cabrera Garcia portafolio website"
+        content="Cristobal Cabrera Garcia portfolio website"
       />
       <link rel="icon" href="/head.ico" />
       <link

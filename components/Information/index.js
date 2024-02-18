@@ -1,3 +1,4 @@
+import Jobs from "components/Jobs"
 import Education from "../Education"
 import Skills from "../Skills"
 import dynamic from "next/dynamic"
@@ -50,6 +51,24 @@ export default function Information() {
 
         <section className="col-md-8 " style={{ height: "100%" }}>
           <section className="row" style={{ borderRadius: "10px" }}>
+            <div
+              className="bg-light py-2 "
+              style={{ borderRadius: "10px", height: "100%" }}
+              ref={observe}
+            >
+              <div
+                className=" bg-light "
+                style={{ height: "100%", borderRadius: "10px" }}
+              >
+                <div
+                  className="card body"
+                  style={{ height: "100%", borderRadius: "10px" }}
+                >
+                  <Jobs />
+                </div>
+              </div>
+            </div>
+
             <div
               className=" bg-light "
               style={{ height: "100%", borderRadius: "10px" }}
